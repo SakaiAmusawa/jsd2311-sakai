@@ -23,5 +23,14 @@ public class VarDemo {
         int balance = 1000;
         balance = balance - 500;
         System.out.println(balance);
+
+        //变量的命名规范
+        //允许：数字、字母、_ 、$(不得以数字开头)
+        int A1;
+        int _A;
+        int _$;
+        int a$;
+        int a1;
+        //关于命名规范问题详情见笔记day02-sakai中关于命名规范的部分
     }
 }
