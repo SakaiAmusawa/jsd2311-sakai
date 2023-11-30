@@ -46,7 +46,7 @@ public class DataTypeDemo {
         // ASCII码： 'a':97 'A':65 '0':48
         char char1 = '男';
         char char2 = ' ';//空格符
-        char char3 = 97;//ASCII符
+        char char3 = 97;//ASCII码，println会根据变量的类型做输出展示 所以此处97自动认为是ASCII码
         char char4 = '\'';//使用转义符才可以正常输出特殊符号
         char char5 = '\\';
         System.out.println(char1);
