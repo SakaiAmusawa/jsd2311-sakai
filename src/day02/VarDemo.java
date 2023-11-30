@@ -7,10 +7,21 @@ public class VarDemo {
         int a;
         int b, c, d;
 
-        //2)变量的初始化
+        // 2)变量的初始化
         int e = 10;
         int f;
         f = 20;
         int g = 30, h = 40;
+
+        // 3)变量的访问/使用
+        int j = 1;
+        int k = j + 4; //用j的值加上4以后赋值给k
+        System.out.println(k);
+
+        j = j + 9; //j在本身的基础上增加
+        System.out.println(j);
+        int balance = 1000;
+        balance = balance - 500;
+        System.out.println(balance);
     }
 }
