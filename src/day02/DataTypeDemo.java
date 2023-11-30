@@ -24,6 +24,8 @@ public class DataTypeDemo {
         System.out.println(g);
         System.out.println(h);
          */
+
+        /*
         //double类型在计算时可能发生舍入误差，所以在需要高精度计算时不得使用double类型。
         double j = 3.14;
         float k = 3.14f;
@@ -32,5 +34,25 @@ public class DataTypeDemo {
         System.out.println(4.5-1.5);
         System.out.println(6.7-1.2);
         System.out.println(3.6-1.2);//发生舍入误差
+        */
+
+        /*
+        //boole占一个字节，只能储存true false
+        boolean a = true;
+        boolean b = false;
+        */
+
+        //char类型占2个字符
+        // ASCII码： 'a':97 'A':65 '0':48
+        char char1 = '男';
+        char char2 = ' ';//空格符
+        char char3 = 97;//ASCII符
+        char char4 = '\'';//使用转义符才可以正常输出特殊符号
+        char char5 = '\\';
+        System.out.println(char1);
+        System.out.println(char2);
+        System.out.println(char3);
+        System.out.println(char4);
+        System.out.println(char5);
     }
 }
