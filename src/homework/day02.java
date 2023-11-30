@@ -36,7 +36,7 @@ public class day02 {
         int 1q;
         int @q;
         ......
-
+        int class 关键词禁止使用
          */
 
     }
