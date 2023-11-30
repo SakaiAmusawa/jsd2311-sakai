@@ -14,7 +14,7 @@ public class DataTypeDemo {
         System.out.println(d);//超出int范围，发生溢出。
         */
 
-        long e = 100000000L;//100000000L为长整型直接量
+        /* e = 100000000L;//100000000L为长整型直接量
         long f = e * 1000 * 2;
         System.out.println(e);
         System.out.println(f);
@@ -23,5 +23,14 @@ public class DataTypeDemo {
         //long h = 10000000000 * 2; 编译错误，10000000000超出int范围，不加L默认为in。
         System.out.println(g);
         System.out.println(h);
+         */
+        //double类型在计算时可能发生舍入误差，所以在需要高精度计算时不得使用double类型。
+        double j = 3.14;
+        float k = 3.14f;
+
+        System.out.println(3.12 - 2.15);//发生舍入误差
+        System.out.println(4.5-1.5);
+        System.out.println(6.7-1.2);
+        System.out.println(3.6-1.2);//发生舍入误差
     }
 }
