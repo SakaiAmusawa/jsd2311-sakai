@@ -1,3 +1,16 @@
+# 目录
+
+1. [包名（Package Names）](#包名package-names)
+2. [类名（Class Names）](#类名class-names)
+3. [接口名（Interface Names）](#接口名interface-names)
+4. [方法名（Method Names）](#方法名method-names)
+5. [变量名（Variable Names）](#变量名variable-names)
+6. [常量名（Constants）](#常量名constants)
+7. [包含多个单词的缩写（Abbreviations in Names）](#包含多个单词的缩写abbreviations-in-names)
+8. [避免单个字符作为变量名（Single-letter Names）](#避免单个字符作为变量名single-letter-names)
+9. [命名应具有描述性（Descriptive Names）](#命名应具有描述性descriptive-names)
+10. [遵循约定（Consistency）](#遵循约定consistency)
+
 # Java命名规范
 
 ## 包名（Package Names）

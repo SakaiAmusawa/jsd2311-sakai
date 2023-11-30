@@ -31,6 +31,6 @@ public class VarDemo {
         int _$;
         int a$;
         int a1;
-        //关于命名规范问题详情见笔记day02-sakai中关于命名规范的部分
+        //关于命名规范问题详情见笔记note_sakai中关于命名规范的部分
     }
 }
