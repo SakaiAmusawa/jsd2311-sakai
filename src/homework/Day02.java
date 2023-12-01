@@ -2,7 +2,7 @@ package homework;
 
 import static sakai.DividingLine.dividingLine;
 
-public class day02 {
+public class Day02 {
     public static void main(String[] args) {
      /*   变量的练习：
 
