@@ -1,5 +1,6 @@
 package day03.operationDemo;
 
+//算术运算符的演示
 public class ArithmeticOperatorDemo {
     public static void main(String[] args) {
         //a++的值为a ++a的值为a+1,a++ 在使用时先返回当前值再执行自增，而 ++a 在使用时会先执行自增再返回值。

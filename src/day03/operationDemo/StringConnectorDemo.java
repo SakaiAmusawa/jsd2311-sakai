@@ -1,5 +1,6 @@
 package day03.operationDemo;
 
+//字符串链接符的演示
 public class StringConnectorDemo {
     public static void main(String[] args) {
         String name = "zjw";

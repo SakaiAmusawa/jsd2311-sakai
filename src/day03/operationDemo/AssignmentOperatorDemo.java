@@ -1,8 +1,9 @@
 package day03.operationDemo;
 
+//赋值运算符的演示
 public class AssignmentOperatorDemo {
     public static void main(String[] args) {
-        //辅助运算符自带强转功能
+        //赋值运算符自带强转功能
         int a = 5;
         a += 10;//a=a+10 a=(int)(a+10)
         System.out.println(a);
