@@ -37,7 +37,7 @@ public class LogicalOperationDemo {
         System.out.println(score < 0 || score > 100);//false不在该范围内 合法，true在该范围内 不合法
         dividingLine();
 
-        //逻辑运算符 !(!的优先级高)
+        //逻辑运算符 !(!的优先级高，所以使用时注意后面的运算加括号)
         System.out.println(!(a > b));//a>b:false !a>b :true
         System.out.println(!(a == c));//a==c:true !a==c:false
         dividingLine();
