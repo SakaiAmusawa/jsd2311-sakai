@@ -31,6 +31,7 @@ public class ArithmeticOperatorDemo {
         System.out.println(a);
         System.out.println(b);*/
 
+
         //--在被使用的情况下
         int a = 5;
         int b = 5;
