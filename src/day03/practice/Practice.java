@@ -1,5 +1,6 @@
 package day03.practice;
 
+
 import java.util.Scanner;
 
 public class Practice {
@@ -32,6 +33,17 @@ public class Practice {
         } else {
             System.out.println("成绩错误");
         }
+/*        练习题 2：闰年判断
+        编写一个程序，根据输入的年份判断并输出该年份是否为闰年。闰年的判断规则如下：
 
+        能被4整除但不能被100整除的年份为闰年。
+        能被400整除的年份也是闰年。*/
+        System.out.println("输入一个年份:");
+        int year = scanner.nextInt();
+        if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
+            System.out.println("闰年");
+        } else {
+            System.out.println("非闰年");
+        }
     }
 }
