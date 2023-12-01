@@ -48,5 +48,6 @@ public class LogicalOperatorDemo {
 
         System.out.println(a < b || a++ > 2);//a<b为true 发生短路后面的程序不执行所以a++不再生效，a的值为5
         System.out.println(a);
+
     }
 }
