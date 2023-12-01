@@ -1,4 +1,4 @@
-package day03.BranchStructure;
+package day03.BranchStructureDemo;
 
 public class IfDemo {
     public static void main(String[] args) {
