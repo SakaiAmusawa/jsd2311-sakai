@@ -17,6 +17,5 @@ public class RelationalOperatorDemo {
         System.out.println(a++ > 5);//true
         System.out.println(a);
 
-
     }
 }
