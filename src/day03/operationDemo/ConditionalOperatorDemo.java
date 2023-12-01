@@ -23,5 +23,6 @@ public class ConditionalOperatorDemo {
         //找最小值
         int min = c < d ? c : d;
         System.out.println(min);
+
     }
 }
