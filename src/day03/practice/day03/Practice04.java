@@ -17,31 +17,39 @@ import java.util.Scanner;
 public class Practice04 {
     public static void main(String[] args) {
         Random random = new Random();
-        int numberOne = random.nextInt(10) + 1;
-        int numberTwo = random.nextInt(10) + 1;
-        int numberAnswer = (numberOne % numberTwo);
+        int dividend = random.nextInt(10) + 1;
+        int divisor = random.nextInt(10) + 1;
+        int remainder = (dividend % divisor);
         Scanner scanner = new Scanner(System.in);
         System.out.println("输入你猜的数：");
         int numberIn = scanner.nextInt();
         int time = 0;
-
         while (true) {
-            if (numberIn > numberAnswer) {
-                System.out.println("大了");
-                System.out.println("再输入一个数：");
-                time++;
+            if (numberIn >= 0 && numberIn <= 10) {
+                break;
+            } else {
+                System.out.println("请输入一个合法数据：");
                 numberIn = scanner.nextInt();
-            } else if (numberIn == numberAnswer) {
+            }
+        }
+        while (true) {
+            if (numberIn > remainder) {
+                System.out.println("大了");
+                time++;
+                System.out.println("再输入一个数：");
+                numberIn = scanner.nextInt();
+            } else if (numberIn == remainder) {
                 System.out.println("猜中了");
+                time++;
                 System.out.println("共猜了" + time + "次");
                 break;
             } else {
                 System.out.println("小了");
-                System.out.println("再输入一个数：");
                 time++;
+                System.out.println("再输入一个数：");
                 numberIn = scanner.nextInt();
-
             }
         }
     }
 }
+
