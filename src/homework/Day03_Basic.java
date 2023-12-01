@@ -2,7 +2,7 @@ package homework;
 
 import static sakai.DividingLine.dividingLine;
 
-public class Day03_basic {
+public class Day03_Basic {
     public static void main(String[] args) {
         //运算符的练习：算术、关系、逻辑、赋值、字符串连接、条件
         //算数运算符
