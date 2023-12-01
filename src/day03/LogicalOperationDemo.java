@@ -1,4 +1,5 @@
 package day03;
+// 逻辑与运算符 && 示例
 
 import static sakai.DividingLine.dividingLine;
 
