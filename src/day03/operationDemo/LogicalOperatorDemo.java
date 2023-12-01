@@ -1,9 +1,9 @@
-package day03;
+package day03.operationDemo;
 // 逻辑与运算符 && 、 || 、 ！ 示例
 
 import static sakai.DividingLine.dividingLine;
 
-public class LogicalOperationDemo {
+public class LogicalOperatorDemo {
     public static void main(String[] args) {
         int a = 5, b = 10, c = 5;
         // 逻辑与运算符 &&

@@ -1,4 +1,4 @@
-package day03;
+package day03.operationDemo;
 
 public class RelationalOperatorDemo {
     public static void main(String[] args) {

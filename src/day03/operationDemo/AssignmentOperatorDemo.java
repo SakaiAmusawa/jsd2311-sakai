@@ -1,6 +1,6 @@
-package day03;
+package day03.operationDemo;
 
-public class AssignmentOperatorsDemo {
+public class AssignmentOperatorDemo {
     public static void main(String[] args) {
         //辅助运算符自带强转功能
         int a = 5;
