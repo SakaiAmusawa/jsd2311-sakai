@@ -13,6 +13,7 @@ public class AssignmentOperatorDemo {
         a /= 6;//a=a/6 a=(int)(a/6)
         System.out.println(a);
 
+
 /*        //小面试题
         short s = 5;
         s=s+10;
