@@ -13,5 +13,6 @@ public class StringConnectorDemo {
         System.out.println("" + 10 + 20 + 30);//结果为102030-----String
         System.out.println(10 + 20 + 30 + "");//结果为60---------String
         //可以看出10+20=30 当到+""时，30被同化变为String类型，然后+30就成了两个字符串进行连接
+
     }
 }
