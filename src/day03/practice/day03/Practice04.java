@@ -21,21 +21,26 @@ public class Practice04 {
         int numberTwo = random.nextInt(10) + 1;
         int numberAnswer = (numberOne % numberTwo);
         Scanner scanner = new Scanner(System.in);
+        System.out.println("输入你猜的数：");
         int numberIn = scanner.nextInt();
+        int time = 0;
 
-        while (numberIn != numberAnswer) {
+        while (true) {
             if (numberIn > numberAnswer) {
                 System.out.println("大了");
                 System.out.println("再输入一个数：");
+                time++;
                 numberIn = scanner.nextInt();
+            } else if (numberIn == numberAnswer) {
+                System.out.println("猜中了");
+                System.out.println("共猜了" + time + "次");
+                break;
             } else {
                 System.out.println("小了");
                 System.out.println("再输入一个数：");
+                time++;
                 numberIn = scanner.nextInt();
-                if (numberIn == numberAnswer) ;
-                {
-                    System.out.println("猜中了");
-                }
+
             }
         }
     }
