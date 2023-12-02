@@ -27,7 +27,9 @@ int[] numbers = {2, 3, 5, 7, 10};
 }*/
 public class Practice06 {
     public static void main(String[] args) {
-        int[] numbers = {2,  4,  10};
+        //int[] numbers = {2, 3, 4, 5, 7, 10};
+        //int[] numbers = {2, 4, 10};
+        int[] numbers = {2, 3, 4, 5, 7, 10};
         int product = 1; // 初始乘积为 1
         boolean hasOdd = false; // 假设数组中没有奇数
 
@@ -37,7 +39,6 @@ public class Practice06 {
                 hasOdd = true; // 发现了奇数
             }
         }
-
         if (!hasOdd) { // 如果数组中没有奇数
             product = 1; // 将乘积设为 1
         }
