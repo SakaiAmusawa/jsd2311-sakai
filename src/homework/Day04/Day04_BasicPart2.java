@@ -1,4 +1,4 @@
-package homework;
+package homework.Day04;
 
 import java.util.Scanner;
 
@@ -17,22 +17,20 @@ Guessing猜数字之do...while版
 
 for循环：输出5次"行动是成功的阶梯"、输出9的乘法表(1到9、1/3/5/7/9、9到1)、累加1到100的和
  */
-public class Day04_BasicPart3 {
+public class Day04_BasicPart2 {
     public static void main(String[] args) {
         int number = (int) (Math.random() * 100 + 1);
-        System.out.println(number);
         Scanner scanner = new Scanner(System.in);
-        System.out.println("input your guess number");
-        int guess;
-        do {
-            guess = scanner.nextInt();
+        int guess = scanner.nextInt();
+        while (guess != number) {
             if (guess > number) {
-                System.out.println("big,input your guess number");
-            } else if (guess < number) {
-                System.out.println("small,input your guess number");
+                System.out.println("big");
             } else {
-                System.out.println("get");
+                System.out.println("small");
             }
-        } while (guess != number);
+            System.out.println("input again:");
+            guess = scanner.nextInt();
+        }
+        System.out.println("get");
     }
 }

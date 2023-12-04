@@ -1,4 +1,4 @@
-package homework;
+package homework.Day02;
 
 import static sakai.DividingLine.dividingLine;
 
