@@ -1,4 +1,4 @@
-package day03.practice.day03;
+package day03.practice;
 /*
 编写一个程序，根据给定的价格和数量计算总金额，如果购买数量超过10件，则总金额打9折。
  */

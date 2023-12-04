@@ -1,4 +1,4 @@
-package day03.practice.day03;
+package day03.practice;
 
 /*
 给定一个整数数组 numbers，编写一个程序来计算数组中所有奇数的乘积。如果数组中没有奇数，则输出 1。
