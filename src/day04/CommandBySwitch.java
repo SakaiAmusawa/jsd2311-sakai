@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class CommandBySwitch {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("please select function: 1.存款 2.取款 3.余额查询 4.退卡");
+        System.out.println("please select function: 1.存款 2.取款 3.余额查询 4.退卡");
         int command = scanner.nextInt();
         switch (command) {
             case 1:
