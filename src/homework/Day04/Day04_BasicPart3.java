@@ -22,14 +22,14 @@ public class Day04_BasicPart3 {
         int number = (int) (Math.random() * 100 + 1);
         System.out.println(number);
         Scanner scanner = new Scanner(System.in);
-        System.out.println("input your guess number");
         int guess;
         do {
+            System.out.println("input your guess number：");
             guess = scanner.nextInt();
             if (guess > number) {
-                System.out.println("big,input your guess number");
+                System.out.print("big,");
             } else if (guess < number) {
-                System.out.println("small,input your guess number");
+                System.out.print("small,");
             } else {
                 System.out.println("get");
             }
