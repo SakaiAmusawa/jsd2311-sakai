@@ -1,7 +1,10 @@
 package day05;
 
+import java.util.Arrays;
+
 public class ArrayDemo {
     public static void main(String[] args) {
+/*
         int[] i = new int[5];//创建一个整形数字 数组名为i 包含5个元素
         double[] d = new double[10];//创建一个double型数组 数组名为d 包含10个元素
         boolean[] b = new boolean[2];//创建一个boolean类型数组 数组名为b 包含2个元素
@@ -25,5 +28,18 @@ public class ArrayDemo {
         for (int j = 0; j < arr1.length; j++) {
             System.out.println(arr1[j]);
         }
+*/
+        int[] arr = {1, 2, 3, 4, 5};
+        int[] arrCopy = new int[5];
+        System.arraycopy(arr, 0, arrCopy, 1, 4);
+        for (int i = 0; i < arrCopy.length; i++) {
+            System.out.println(arrCopy[i]);
+        }
+        int[] arCopy = Arrays.copyOf(arr, 7);
+        for (int j : arCopy
+        ) {
+            System.out.println(j);
+        }
+
     }
 }
