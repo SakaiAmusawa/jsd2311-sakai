@@ -1,4 +1,4 @@
-package homework.Day04;
+package homework.day04;
 
 //输出1900到2023年之间所有的闰年(每够10个年份，换一行)
 /*

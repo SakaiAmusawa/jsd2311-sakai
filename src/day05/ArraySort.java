@@ -24,8 +24,5 @@ public class ArraySort {
         for (int i = arr.length - 1; i >= 0; i--) {
             System.out.println(arr[i]);
         }
-        int x = 10;
-        x=x++ +10;
-        System.out.println(x);
     }
 }
