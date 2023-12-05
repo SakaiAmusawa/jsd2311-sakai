@@ -12,5 +12,18 @@ public class ArrayDemo {
         int[] arr3 = new int[]{1, 2, 3, 4, 5};
         int[] arr4;
         arr4 = new int[]{1, 2, 3, 4, 5};
+        System.out.println(arr1.length);//5
+        System.out.println(arr1[0]);//0
+        arr1[0] = 1;
+        arr1[1] = 2;
+        arr1[2] = 3;
+        arr1[3] = 4;
+        arr1[4] = 5;
+        System.out.println(arr1[0]);//1
+        System.out.println(arr1[4]);//5
+        System.out.println(arr1[arr1.length - 1]);//5
+        for (int j = 0; j < arr1.length; j++) {
+            System.out.println(arr1[j]);
+        }
     }
 }
