@@ -46,7 +46,7 @@ public class CalAvg {
             return maxMinSum;
         }*/
     public static double avg(double[] scores) {
-        double avg = 0;
+        double avg ;
         double total = 0;
         double max = scores[0];
         double min = scores[0];
