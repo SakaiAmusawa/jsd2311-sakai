@@ -10,7 +10,20 @@ public class Guessing {
         int number = random.nextInt(1000) + 1;
         System.out.println(number);//作弊
 
-        int times = 0;
+        while (true) {//自造死循环
+            System.out.println("guess");
+            int guess = scanner.nextInt();
+            if (guess > number) {
+                System.out.println("big");
+            } else if (guess < number) {
+                System.out.println("small");
+            } else {
+                System.out.println("get");
+                break;
+            }
+        }
+        /*
+                int times = 0;
         while (times <= 10) {
             System.out.println("guess");
             int guess = scanner.nextInt();
@@ -29,5 +42,6 @@ public class Guessing {
                 System.out.println("you fail");
             }
         }
+         */
     }
 }
