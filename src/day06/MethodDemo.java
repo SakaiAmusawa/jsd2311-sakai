@@ -7,7 +7,16 @@ import static sakai.DividingLine.dividingLine;
 public class MethodDemo {
     public static void main(String[] args) {
         hello();
-        hi("sakai amusawa", 66);
+        hello("sakai amusawa", 24);
+        hello(24, "竹林飲茶人");
+        /*
+        hello()
+        hello(String int)
+        hello(int String)
+        这是方法的重载：在同一类中，方法名相同，但是方法的参数不同，我们称之为方法重载
+        绑定：编译过程中编译器会自动根据参数去绑定方法
+        方法的签名：方法的名称 和参数列表
+         */
         goodbye("zt", 9999);
         sleep("sakai", 10);
         dividingLine();
@@ -26,8 +35,8 @@ public class MethodDemo {
 
         int[] arr1 = generateArray();
         //模拟操作
-        for (int i = 0; i < arr1.length; i++) {
-            System.out.println(arr1[i]);
+        for (int j : arr1) {
+            System.out.println(j);
         }
         dividingLine();
         int[] arr2 = generateArray();
@@ -43,13 +52,22 @@ public class MethodDemo {
     }
 
     //无返回值有参数
-    public static void hi(String name, int age) {
+    public static void hello(String name, int age) {
         if (age > 60) {
             return;//在没有返回值的方法中return表示结束方法，剩余语句不再生效
         }
         System.out.println("Hello,everyone! my name is " + name + " 今年" + age + "岁了");
     }
 
+    public static void hello(int age, String name) {
+        if (age > 60) {
+            return;//在没有返回值的方法中return表示结束方法，剩余语句不再生效
+        }
+        System.out.println("Hello,everyone! my name is " + name + " 今年" + age + "岁了");
+    }
+
+    //public static int hello(){return 1;} 错误方法的重载与返回值的类型无关 只与方法的签名有关
+    //public  static void hello(){String location;} 错误方法的重载与 变量的名称无关 只要变量的类型一直就会发生错误
     public static void goodbye(String name, int day) {
         if (day <= 365 * 3) {
             System.out.println("bye " + name + ",see you in " + day + " days");
@@ -64,13 +82,15 @@ public class MethodDemo {
 
     //有返回值有参数
     public static int sum(int num1, int num2) {
-        int sum = num1 + num2;
+        int sum;
+        sum = num1 + num2;
         return sum;
         //return sum 返回的是sum的值
     }
 
     public static int product(int num1, int num2) {
-        int num = num1 * num2;
+        int num;
+        num = num1 * num2;
         return num;
     }
 
