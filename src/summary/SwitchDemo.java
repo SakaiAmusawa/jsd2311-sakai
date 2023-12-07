@@ -1,4 +1,4 @@
-package stageSummary;
+package summary;
 
 import java.util.Scanner;
 
