@@ -228,9 +228,9 @@
          System.out.println(a[i]);
      }
      ```
-     
+
      ```java
-     package day06;
+     package basic.day06;
      import java.util.Arrays;
      //求数组元素的最大值，并将其存储到数组最后一个元素的下一个位置
      public class MaxOfArray {
@@ -260,9 +260,9 @@
      ```
      
    - 排序：
-   
+
      ```java
-     package day05;
+     package basic.day05;
      import java.util.Arrays;
      //数组的演示
      public class ArraySort {

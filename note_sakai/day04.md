@@ -70,7 +70,7 @@
 1. Scanner接收用户输入的数据：------共3步，先背下来，面向对象第4天才能理解
 
    ```java
-   package day04;
+   package basic.day04;
    import java.util.Scanner; //1.导入扫描仪
    //Scanner的演示
    public class ScannerDemo {
@@ -98,7 +98,7 @@
        > switch中数据的类型：byte,short,int,char,String,枚举
 
        ```java
-       package day04;
+       package basic.day04;
        import java.util.Scanner;
        //命令解析程序
        public class CommandBySwitch {
@@ -226,7 +226,7 @@
      ```
 
      ```java
-     package day04;
+     package basic.day04;
      import java.util.Scanner;
      //猜数字小游戏
      public class Guessing {
@@ -269,7 +269,7 @@
      ```
 
      ```java
-     package day04;
+     package basic.day04;
      import java.util.Scanner;
      //猜数字小游戏
      public class Guessing {

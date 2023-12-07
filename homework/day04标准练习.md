@@ -26,7 +26,7 @@
    参考代码：
 
    ```java
-   package day04;
+   package basic.day04;
    import java.util.Scanner;
    //命令解析程序
    public class CommandBySwitch {
@@ -60,7 +60,7 @@
    参考代码：
 
    ```java
-   package day04;
+   package basic.day04;
    import java.util.Scanner;
    //猜数字小游戏
    public class Guessing {
@@ -91,7 +91,7 @@
    参考代码:
 
    ```java
-   package day04;
+   package basic.day04;
    import java.util.Scanner;
    //猜数字小游戏
    public class Guessing {

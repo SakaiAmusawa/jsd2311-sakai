@@ -36,7 +36,7 @@
    参考代码：
 
    ```java
-   package day06;
+   package basic.day06;
    //方法的演示
    public class MethodDemo {
        public static void main(String[] args) {
@@ -73,7 +73,7 @@
    参考代码：
 
    ```java
-   package day06;
+   package basic.day06;
    //方法的演示
    public class MethodDemo {
        public static void main(String[] args) {
@@ -124,7 +124,7 @@
    * 要求:使用方法实现
 
      ```java
-     package day06;
+     package basic.day06;
      
      import java.util.Scanner;
      
@@ -179,7 +179,7 @@
    - 要求：使用while(true)自造死循环实现
 
      ```java
-     package day06;
+     package basic.day06;
      import java.util.Random;
      import java.util.Scanner;
      /**

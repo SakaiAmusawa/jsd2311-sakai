@@ -178,7 +178,7 @@
    - 编译器在编译时会根据方法的签名自动绑定方法
 
      ```java
-     package day06;
+     package basic.day06;
      public class MethodDemo {
          public static void main(String[] args) {
              say(); //自动绑定无参say
@@ -215,7 +215,7 @@
 6. 综合案例：
 
    ```java
-   package day06;
+   package basic.day06;
    import java.util.Scanner;
    /**
     * 需求:<<主持人大赛>>有N位评委给选手打分

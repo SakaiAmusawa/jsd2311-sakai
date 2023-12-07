@@ -121,7 +121,7 @@
        - main中：System.out.println("hello world");
 
        ```java
-       package day01; //声明包day01(楼+单元)
+       package basic.day01; //声明包day01(楼+单元)
        //声明类HelloWorld(房子)
        public class HelloWorld {
            //主方法，为程序的入口(大门口)，运行程序时自动执行main方法
