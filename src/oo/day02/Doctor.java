@@ -4,10 +4,9 @@ public class Doctor extends Person {
     double salary;
 
     Doctor(String name, int age, String address, double salary) {
-        this.name = name;
-        this.age = age;
-        this.address = address;
+        super(name, age, address);
         this.salary = salary;
+        // super.salary = salary; 错误父类不能访问子类的成员变量
     }
 
     void cut() {

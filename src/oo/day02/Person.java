@@ -6,6 +6,15 @@ public class Person {
     String address;
 
 
+    Person(){
+
+    }
+    public Person(String name, int age, String address) {
+        this.name = name;
+        this.age = age;
+        this.address = address;
+    }
+
     void eat() {
         System.out.println(name + "正在吃东西");
     }

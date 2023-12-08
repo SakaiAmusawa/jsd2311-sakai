@@ -11,10 +11,9 @@ public class Student extends Person {
 
     //有参构造
     Student(String stuID, String name, int age, String address, String className) {
+        //调用父类的构造方法，super() 必须放在第一行
+        super(name, age, address);
         this.stuID = stuID;
-        super.name = name;
-        super.age = age;
-        super.address = address;
         this.className = className;
     }
 
