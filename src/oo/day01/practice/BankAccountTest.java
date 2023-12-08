@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class BankAccountTest {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("请选择要办理的业务：1.存钱 2.取钱 3.查询 4.退出");
         int command = scanner.nextInt();
         choose(command);
     }
@@ -12,10 +13,7 @@ public class BankAccountTest {
     public static void choose(int command) {
         BankAccount zjw = new BankAccount("02263016", "zjw", 3500.50);
         Scanner scanner = new Scanner(System.in);
-        while (true) {
-            if (command == 4) {
-                break;
-            }
+        while (command != 4) {
             if (command >= 1 && command <= 3) {
                 switch (command) {
                     case 1:
@@ -38,6 +36,7 @@ public class BankAccountTest {
             } else {
                 System.out.println("error");
             }
+            System.out.println("请选择要办理的业务：1.存钱 2.取钱 3.查询 4.退出");
             command = scanner.nextInt();
         }
 
