@@ -8,11 +8,8 @@ public class Student extends Person {
     Student() {
 
     }
-
-    //有参构造
-    Student(String stuID, String name, int age, String address, String className) {
-        //调用父类的构造方法，super() 必须放在第一行
-        super(name, age, address);
+    public Student(String name, int age, String address, String stuID, String className) {
+        super(name, age, address);//调用父类的构造方法，super() 必须放在第一行
         this.stuID = stuID;
         this.className = className;
     }
@@ -21,4 +18,8 @@ public class Student extends Person {
         System.out.println(name + " in learning");
     }
 
+    @Override
+    void sayHi() {
+        System.out.println("hello everyone,my name is " + name + "," + age + " years old , live in :" + address + " form " + className + " class, and my ID is " + stuID);
+    }
 }

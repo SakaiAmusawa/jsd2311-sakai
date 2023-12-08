@@ -2,11 +2,11 @@ package oo.day02;
 
 public class ExtendsTest {
     public static void main(String[] args) {
-        Student zjw = new Student("263016", "sakai", 24, "***", "jsd2311");
+        Student zjw = new Student("sakai", 24, "潍坊", "***", "jsd2311");
         zjw.sayHi();
         zjw.study();
 
-        Teacher lm = new Teacher("李敏", 28, "潍坊", 6000);
+        Teacher lm = new Teacher("孙敏", 28, "潍坊", 6000);
         lm.eat();
         lm.sayHi();
         lm.teach();
