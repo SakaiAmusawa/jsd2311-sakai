@@ -1,4 +1,4 @@
-package oo.homework;
+package oo.homework.day01;
 
 /*
  Car类和CarTest类：

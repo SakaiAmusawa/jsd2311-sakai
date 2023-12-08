@@ -1,4 +1,4 @@
-package oo.homework;
+package oo.homework.day01;
 
 public class CarTest {
     public static void main(String[] args) {
