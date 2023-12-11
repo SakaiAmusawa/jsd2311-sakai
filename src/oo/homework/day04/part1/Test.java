@@ -17,13 +17,16 @@ public class Test {
             System.out.println(animals[i].name);
             animals[i].eat();
             animals[i].drink();
-            if (animals[i] instanceof Dog dog) {
+            if (animals[i] instanceof Dog) {
+                Dog dog = (Dog) animals[i];
                 dog.lookHome();
             }
-            if (animals[i] instanceof Chick chick) {
+            if (animals[i] instanceof Chick) {
+                Chick chick = (Chick) animals[i];
                 chick.layEggs();
             }
-            if (animals[i] instanceof Swim swim) {
+            if (animals[i] instanceof Swim) {
+                Swim swim = (Swim) animals[i];
                 swim.swim();
             }
             Master master = new Master();
