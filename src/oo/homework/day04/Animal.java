@@ -19,7 +19,7 @@ public abstract class Animal {
     }
 
     void drink() {
-        System.out.println("那个" + age + "岁" + color + "色的" + name + "在喝水");
+        System.out.println("that " + age + " years old " + color + " color " + name + " are drinking water");
     }
 
     abstract void eat();

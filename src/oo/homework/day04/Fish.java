@@ -14,7 +14,7 @@ public class Fish extends Animal implements Swim {
 
     @Override
     void eat() {
-        System.out.println(age + " years old " + color + "color " + name + "is eating 🦐");
+        System.out.println(age + " years old " + color + "color " + name + " eating 🦐");
     }
 
     @Override

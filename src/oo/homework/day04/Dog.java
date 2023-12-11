@@ -9,6 +9,10 @@ public class Dog extends Animal implements Swim {
         super(name, age, color);
     }
 
+    void lookHome() {
+        System.out.println(name + "are looking home");
+    }
+
     @Override
     void eat() {
         System.out.println(age + " years old " + color + "color " + name + "is eating met");

@@ -11,7 +11,7 @@ public class Chick extends Animal {
 
     @Override
     void eat() {
-        System.out.println(age + " years old " + color + "color " + name + "is eating rice");
+        System.out.println(age + " years old " + color + "color " + name + " eating rice");
     }
 
     void layEggs() {
