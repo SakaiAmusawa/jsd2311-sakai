@@ -2,9 +2,9 @@ package oo.day03.practice;
 
 import java.util.Date;
 
-public class DirectorOfTeachingAndResearch extends BasicInfo implements SolvingProblems, TrainEmployees, EditingBooks {
+public class DTR extends BasicInfo implements SolvingProblems, TrainEmployees, EditingBooks {
 
-    public DirectorOfTeachingAndResearch(String name, int age, double salary) {
+    public DTR(String name, int age, double salary) {
         super(name, age, salary);
     }
 
