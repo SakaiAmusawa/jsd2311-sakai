@@ -1,4 +1,4 @@
-package oo.homework.day04;
+package oo.homework.day04.part1;
 
 public class Dog extends Animal implements Swim {
     public Dog() {
@@ -7,6 +7,10 @@ public class Dog extends Animal implements Swim {
 
     public Dog(String name, int age, String color) {
         super(name, age, color);
+    }
+
+    void lookHome() {
+        System.out.println(name + "are looking home");
     }
 
     @Override

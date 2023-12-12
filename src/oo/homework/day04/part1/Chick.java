@@ -1,4 +1,4 @@
-package oo.homework.day04;
+package oo.homework.day04.part1;
 
 public class Chick extends Animal {
     public Chick() {
@@ -11,7 +11,7 @@ public class Chick extends Animal {
 
     @Override
     void eat() {
-        System.out.println(age + " years old " + color + "color " + name + "is eating rice");
+        System.out.println(age + " years old " + color + "color " + name + " eating rice");
     }
 
     void layEggs() {

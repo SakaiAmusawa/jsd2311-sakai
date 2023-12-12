@@ -1,4 +1,4 @@
-package oo.homework.day04;
+package oo.homework.day04.part1;
 
 /**
  * Fish类：继承Animal、实现Swim接口，重写eat()、重写swim()
@@ -14,7 +14,7 @@ public class Fish extends Animal implements Swim {
 
     @Override
     void eat() {
-        System.out.println(age + " years old " + color + "color " + name + "is eating 🦐");
+        System.out.println(age + " years old " + color + "color " + name + " eating 🦐");
     }
 
     @Override
