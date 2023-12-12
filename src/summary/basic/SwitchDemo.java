@@ -1,4 +1,4 @@
-package summary;
+package summary.basic;
 
 import java.util.Scanner;
 
